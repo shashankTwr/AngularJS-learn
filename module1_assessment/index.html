@@ -12,16 +12,15 @@
   </head>
 <body ng-app='CheckerApp'>
    <div ng-controller="CheckerController" class="container">
-     <h1>Lunch Checker</h1>
+     <h1>Lunch Checker</h1
          <div  class="form-group">
              <input  ng-model="name" id="lunch-menu"  type="text"
              placeholder="list comma separated dishes you usually have for lunch(empty element checking accounted)"
              class="form-control">
              <button ng-click="checkItemCount()" class="btn btn-default">Check If Too Much</button>
-         </div>
-         <div  class="form-group message">
-            {{message}}
-           <!-- Your message can go here. -->
+             <div class="form-group message">
+                {{message}}
+             </div>
          </div>
    </div>
 
